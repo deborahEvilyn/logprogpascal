@@ -1,0 +1,226 @@
+object Form1: TForm1
+  Left = 497
+  Height = 378
+  Top = 166
+  Width = 493
+  Caption = 'Form1'
+  ClientHeight = 378
+  ClientWidth = 493
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 44
+    Height = 25
+    Top = 296
+    Width = 75
+    Caption = 'Calcular'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 208
+    Height = 25
+    Top = 296
+    Width = 75
+    Caption = 'Limpar'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 368
+    Height = 25
+    Top = 296
+    Width = 75
+    Caption = 'Sair'
+    TabOrder = 2
+  end
+  object Epopia: TEdit
+    Left = 128
+    Height = 23
+    Top = 64
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '0'
+  end
+  object Label1: TLabel
+    Left = 160
+    Height = 21
+    Top = 8
+    Width = 180
+    Caption = 'Crescimento Populacional'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Epopib: TEdit
+    Left = 128
+    Height = 23
+    Top = 104
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 4
+    Text = '0'
+  end
+  object Label2: TLabel
+    Left = 7
+    Height = 15
+    Top = 64
+    Width = 108
+    Caption = 'População cidade A:'
+    ParentColor = False
+  end
+  object Etempo: TEdit
+    Left = 128
+    Height = 23
+    Top = 152
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 5
+    Text = '0'
+  end
+  object Epopa: TEdit
+    Left = 128
+    Height = 23
+    Top = 192
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 6
+    Text = '0'
+  end
+  object Epopb: TEdit
+    Left = 128
+    Height = 23
+    Top = 232
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 7
+    Text = '0'
+  end
+  object Etaxaa: TEdit
+    Left = 376
+    Height = 23
+    Top = 128
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 8
+    Text = '0'
+  end
+  object Etaxab: TEdit
+    Left = 376
+    Height = 23
+    Top = 160
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 9
+    Text = '0'
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 15
+    Top = 104
+    Width = 107
+    Caption = 'População cidade B:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 15
+    Top = 152
+    Width = 111
+    Caption = 'Tempo Transcorrido:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 15
+    Top = 192
+    Width = 98
+    Caption = 'População Final A:'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 7
+    Height = 15
+    Top = 232
+    Width = 97
+    Caption = 'População Final B:'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 216
+    Height = 15
+    Top = 64
+    Width = 55
+    Caption = 'habitantes'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 216
+    Height = 15
+    Top = 104
+    Width = 55
+    Caption = 'habitantes'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 216
+    Height = 15
+    Top = 152
+    Width = 27
+    Caption = 'Anos'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 216
+    Height = 15
+    Top = 192
+    Width = 55
+    Caption = 'habitantes'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 216
+    Height = 15
+    Top = 232
+    Width = 55
+    Caption = 'habitantes'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 264
+    Height = 15
+    Top = 128
+    Width = 106
+    Caption = 'Taxa crescimento A:'
+    ParentColor = False
+  end
+  object Label13: TLabel
+    Left = 265
+    Height = 15
+    Top = 160
+    Width = 105
+    Caption = 'Taxa crescimento B:'
+    ParentColor = False
+  end
+  object Label14: TLabel
+    Left = 464
+    Height = 15
+    Top = 128
+    Width = 10
+    Caption = '%'
+    ParentColor = False
+  end
+  object Label15: TLabel
+    Left = 464
+    Height = 15
+    Top = 160
+    Width = 10
+    Caption = '%'
+    ParentColor = False
+  end
+end

@@ -1,0 +1,113 @@
+object Form1: TForm1
+  Left = 974
+  Height = 240
+  Top = 149
+  Width = 364
+  Caption = 'Temperaturas'
+  ClientHeight = 240
+  ClientWidth = 364
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 56
+    Height = 17
+    Top = 24
+    Width = 263
+    Caption = 'Transformação de escalas de temperaturas'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 272
+    Height = 15
+    Top = 72
+    Width = 12
+    Caption = '°C'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 274
+    Height = 15
+    Top = 120
+    Width = 11
+    Caption = '°F'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object BCparaF: TButton
+    Left = 32
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = '°F para °C'
+    OnClick = BCparaFClick
+    TabOrder = 0
+  end
+  object BFparaC: TButton
+    Left = 32
+    Height = 25
+    Top = 118
+    Width = 75
+    Caption = '°C para °F'
+    OnClick = BFparaCClick
+    TabOrder = 1
+  end
+  object EgrausC: TEdit
+    Left = 192
+    Height = 23
+    Top = 72
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0'
+  end
+  object EgrausF: TEdit
+    Left = 192
+    Height = 23
+    Top = 120
+    Width = 80
+    Alignment = taRightJustify
+    OnChange = EgrausFChange
+    TabOrder = 3
+    Text = '0'
+  end
+  object Blimpar: TButton
+    Left = 32
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'LIMPAR'
+    OnClick = BlimparClick
+    TabOrder = 4
+  end
+  object Bsair: TButton
+    Left = 197
+    Height = 25
+    Top = 176
+    Width = 75
+    Caption = 'SAIR'
+    OnClick = BsairClick
+    TabOrder = 5
+  end
+end

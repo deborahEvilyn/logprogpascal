@@ -1,0 +1,113 @@
+object Formes1: TFormes1
+  Left = 995
+  Height = 358
+  Top = 177
+  Width = 399
+  Caption = 'Triângulos'
+  ClientHeight = 358
+  ClientWidth = 399
+  LCLVersion = '2.0.12.0'
+  object EladoA: TEdit
+    Left = 72
+    Height = 23
+    Top = 96
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 0
+    Text = '0'
+  end
+  object MResultado: TMemo
+    Left = 216
+    Height = 88
+    Top = 127
+    Width = 147
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 1
+  end
+  object EladoB: TEdit
+    Left = 72
+    Height = 23
+    Top = 144
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 2
+    Text = '0'
+  end
+  object EladoC: TEdit
+    Left = 72
+    Height = 23
+    Top = 192
+    Width = 80
+    Alignment = taRightJustify
+    TabOrder = 3
+    Text = '0'
+  end
+  object Btriangulo: TButton
+    Left = 216
+    Height = 25
+    Top = 94
+    Width = 147
+    Caption = 'Formam um Triângulo?'
+    OnClick = BtrianguloClick
+    TabOrder = 4
+  end
+  object Blimpar: TButton
+    Left = 77
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'LIMPAR'
+    OnClick = BlimparClick
+    TabOrder = 5
+  end
+  object Bsair: TButton
+    Left = 264
+    Height = 25
+    Top = 272
+    Width = 75
+    Caption = 'SAIR'
+    OnClick = BsairClick
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 112
+    Height = 17
+    Top = 24
+    Width = 168
+    Caption = 'Programa sobre Triângulos'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Height = 15
+    Top = 96
+    Width = 37
+    Caption = 'Lado A'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 15
+    Top = 144
+    Width = 36
+    Caption = 'Lado B'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 16
+    Height = 15
+    Top = 192
+    Width = 37
+    Caption = 'Lado C'
+    ParentColor = False
+  end
+end
